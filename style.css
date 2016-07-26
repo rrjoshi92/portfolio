@@ -262,13 +262,6 @@ nav .brand-logo img {
   background-color: #eee;
 }
 
-.lblpadding-1 {
-    padding: 0px 381px 0px 381px;
-}
-
-.lblpadding-2 {
-    padding: 0px 450px 0px 450px;
-}
 
 
 /*--------------------*/
@@ -466,18 +459,8 @@ nav .brand-logo img {
 }
 
 
-.outer {
-}
 
-.inner-left {
-    width:48%;
-    float:left;
-}
 
-.inner-right {
-    width:48%;
-    float:right;
-}
 
 
 /*--------------------*/
@@ -1897,6 +1880,14 @@ textarea.materialize-textarea {
 /*--------------------*/
 
 
+@media(min-width:1199px ) {
+      .owl-item {margin-left:85px;}
+      .inner-left {width:48%;float:left}
+      .inner-right {width:48%; float:right}
+      .lblpadding-1 {padding: 0px 381px 0px 381px;}
+      .lblpadding-2 {padding: 0px 450px 0px 450px;}
+}
+
 @media(max-width:1199px ){
 
   .custom-nav li a { padding: 25px 15px;}
@@ -1907,8 +1898,12 @@ textarea.materialize-textarea {
   .prev2 {margin-top: 13.5%;}
   .next2 {margin-top: 13.5%;}
   .contact-map{height: 492px;}
-
-  
+  .card-content {height: 100px;}
+  .pad-top{padding-top:12px;margin-left:0 !important;}
+  .lblpadding-1 {padding: 0px 208px 0px 208px;}
+  .lblpadding-2 {padding: 0px 274px 0px 274px;}
+  .exp-img-div {display:none;}
+  .call-to-about {bottom:-45px;}
 }
 
 
@@ -1916,7 +1911,7 @@ textarea.materialize-textarea {
 
   .home-inner {padding: 30px;}
   .home-title {font-size: 55px;}
-  .call-to-about {bottom: -95px;}
+  .call-to-about {bottom: -80px;}
   .resume-btn { margin-top: 30px;}
   .prev {margin-top: 28%;}
   .next {margin-top: 28%;}
@@ -1932,7 +1927,9 @@ textarea.materialize-textarea {
   .call-to-about {left: 45.5%;}
   .up-btn {left: 45.5%;}
   .custom-nav li a { padding: 25px 20px;}
-
+  .lblpadding-1 {padding: 0px 97px 0px 97px;}
+  .lblpadding-2 {padding: 0px 161px 0px 161px;}
+  .exp-img-div {display:none;}
 }
 
 
@@ -2006,7 +2003,7 @@ textarea.materialize-textarea {
   .next2 {margin-top: 30.5%;}
   .design-info {text-align: center;width: 100%;margin-top: 15px;margin-bottom: 0px;}
   .copyright-info {text-align: center; width: 100%;margin-top: 5px;}
-  .call-to-about {left: 43%;bottom: -165px;}
+  .call-to-about {left: 43%;bottom: -128px;}
   .up-btn {left: 43%;}
   .header-title { font-size: 20px;}
   .recent-img {height: 70px;width: 25%;}
@@ -2028,7 +2025,10 @@ textarea.materialize-textarea {
   .pagination li {height: 25px;width: 25px;}
   .custom-pagination li a {font-size: 12px;line-height: 25px;}
   .blog-head h1 {font-size: 30px;}
-
+  .pad-top {padding-top:12px;}
+  .pad-left {float:right;}
+  .lblpadding-1 {display: none;}
+  .lblpadding-2 {display: none;}
 }
 
 
@@ -2076,4 +2076,5 @@ textarea.materialize-textarea {
   .children {margin-left: 10px;}
   .pagination li {width: 25px;margin: 0 5px;}
 
+ 
 }
