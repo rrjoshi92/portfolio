@@ -4,6 +4,7 @@ function toastmsg(status) {
     if (status) {
         $('#snackbar').text("");
         $('#snackbar').text("Message sent successfully!!");
+        document.getElementById("contectme").reset();
     } else {
         $('#snackbar').text("");
         $('#snackbar').text("Error occurred! Please try again.");
@@ -16,13 +17,19 @@ $('.submit-btn').click(function () {
     var sub = $('#subject').val();
     var email = $('#email').val();
     var msg = $('#msg').val();
-    toastmsg(false);
-    $.ajax({
-        url: "http://mywork.dev-tech.club/ravi_mail.php",
-        data: { "template": "<html><body><div> <div><label>Name: </label>  " + name + "</div> <div><lable>Email: </lable> " + email + "</div> <div><label>Subject: </label>" + sub + "</div>    <div><label>Message: </label>" + msg + "</div></div></body></html>" },
-        success: function(data){           
-                toastmsg(data.status); 
-        }
-    })
-
+    if (name && sub && email && msg) {
+        $.ajax({
+            url: "http://mywork.dev-tech.club/ravi_mail.php",
+            data: { "template": "<html><body><div> <div><label>Name: </label>  " + name + "</div> <div><lable>Email: </lable> " + email + "</div> <div><label>Subject: </label>" + sub + "</div>    <div><label>Message: </label>" + msg + "</div></div></body></html>" },
+            success: function (data) {
+                data = JSON.parse(data);
+                toastmsg(data.status);
+            },
+            error: function (XHR, status, error) {
+                toastmsg(false);
+            }
+        })
+    } else {
+        toastmsg(false);
+    }
 });
