@@ -1879,6 +1879,7 @@ textarea.materialize-textarea {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
+.contact-text { font-size:25px;}
 
 
 /*--------------------*/
@@ -1910,7 +1911,7 @@ textarea.materialize-textarea {
   .lblpadding-trainee {padding: 0px 208px 0px 208px;}
   .lblpadding-intern {padding: 0px 274px 0px 274px;}
   .exp-img-div {display:none;}
-  .call-to-about {bottom:-45px;}
+  .call-to-about {bottom:-45px;}  
 }
 
 
