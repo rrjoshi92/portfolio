@@ -83,13 +83,13 @@ a {
   color: #686cc8;
 }
 .customNavigation i{
-  color: #686cc8;
+  color: #fff;
 }
 #testimonial{
-  background-color: #686cc8;  
+  background-color:#fff; /*#686cc8;*/  
 }
 .testimonial-content h3 {
-  color: #686cc8;
+  color: #fff;
 }
 .footer-top{
   background-color:#686cc8; 

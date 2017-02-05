@@ -72,7 +72,7 @@ jQuery(function($){
 
 	var owl1 = $("#owl-carousel1"); 
 	owl1.owlCarousel({
-	    items : 4, //4 items above 1024px browser width
+	    items : 3, //3 items above 1024px browser width
 	    itemsDesktop : [1024,3], //3 items between 1024px and 901px
 	    itemsDesktopSmall : [900,2], // betweem 900px and 601px
 	    itemsTablet: [600,1], //1 items between 600 and 0
@@ -231,3 +231,6 @@ jQuery(function($){
 
 	
 });
+
+
+// Comment added

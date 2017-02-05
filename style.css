@@ -633,6 +633,11 @@ transition: background-color 0.5s ease-in-out;
     width: 300px;
 }
 
+.apple-logo {
+    width: 160px;
+    margin-left: 56px;
+}
+
 .exp-content-details {
     width: 70%;
     float: left;
@@ -740,12 +745,12 @@ transition: background-color 0.5s ease-in-out;
 
 
 .testimonial-inner h2{
-  color: #fff;
+  color: #686cc8;
 }
 
 
 .testimonial-inner p{
-  color: #fff;
+  color: #686cc8;
 }
 
 
@@ -766,7 +771,8 @@ transition: background-color 0.5s ease-in-out;
 
 
 .single-testimonial {  
-  background-color: #fff;
+    height:295px;
+  background-color: #686cc8;
   border-radius: 2px;
   margin: 0.5rem 0 1rem;
   overflow: hidden;
@@ -810,14 +816,14 @@ transition: background-color 0.5s ease-in-out;
 
 
 .testimonial-content > span {
-  color: #777777;
+  color: #fff;
   display: block;
   font-size: 13px;
 }
 
 
 .testimonial-content p{
-  color: #777777;
+  color: #fff;
   font-style: italic;
 }
 
@@ -1881,11 +1887,12 @@ textarea.materialize-textarea {
 
 
 @media(min-width:1199px ) {
-      .owl-item {margin-left:85px;}
+      .experience-slide > div > div > div{margin-left:85px;}
       .inner-left {width:48%;float:left}
       .inner-right {width:48%; float:right}
-      .lblpadding-1 {padding: 0px 381px 0px 381px;}
-      .lblpadding-2 {padding: 0px 450px 0px 450px;}
+      .lblpadding-uiengg {padding: 0px 438px 0px 432px;}
+      .lblpadding-trainee {padding: 0px 381px 0px 381px;}
+      .lblpadding-intern {padding: 0px 450px 0px 450px;}
 }
 
 @media(max-width:1199px ){
@@ -1900,8 +1907,8 @@ textarea.materialize-textarea {
   .contact-map{height: 492px;}
   .card-content {height: 100px;}
   .pad-top{padding-top:12px;margin-left:0 !important;}
-  .lblpadding-1 {padding: 0px 208px 0px 208px;}
-  .lblpadding-2 {padding: 0px 274px 0px 274px;}
+  .lblpadding-trainee {padding: 0px 208px 0px 208px;}
+  .lblpadding-intern {padding: 0px 274px 0px 274px;}
   .exp-img-div {display:none;}
   .call-to-about {bottom:-45px;}
 }
@@ -1927,8 +1934,8 @@ textarea.materialize-textarea {
   .call-to-about {left: 45.5%;}
   .up-btn {left: 45.5%;}
   .custom-nav li a { padding: 25px 20px;}
-  .lblpadding-1 {padding: 0px 97px 0px 97px;}
-  .lblpadding-2 {padding: 0px 161px 0px 161px;}
+  .lblpadding-trainee {padding: 0px 97px 0px 97px;}
+  .lblpadding-intern {padding: 0px 161px 0px 161px;}
   .exp-img-div {display:none;}
 }
 
@@ -2027,8 +2034,8 @@ textarea.materialize-textarea {
   .blog-head h1 {font-size: 30px;}
   .pad-top {padding-top:12px;}
   .pad-left {float:right;}
-  .lblpadding-1 {display: none;}
-  .lblpadding-2 {display: none;}
+  .lblpadding-trainee {display: none;}
+  .lblpadding-intern {display: none;}
 }
 
 
