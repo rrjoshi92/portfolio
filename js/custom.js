@@ -108,11 +108,11 @@ jQuery(function($){
 
 	var owl2 = $("#owl-carousel2"); 
     owl2.owlCarousel({
-        items : 2, //4 items above 1024px browser width
-        itemsDesktop : [1024,2], //3 items between 1024px and 901px
+        items: 2, //3 items above 1024px browser width     
+        itemsDesktop : [1024,1], //2 items between 1024px and 901px
         itemsDesktopSmall : [900,2], // betweem 900px and 601px
         itemsTablet: [600,1], //1 items between 600 and 0
-        itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
+        itemsMobile : 3 // itemsMobile disabled - inherit from itemsTablet option
     });
 
     // Slide Navigation
