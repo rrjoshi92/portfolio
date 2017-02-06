@@ -643,6 +643,10 @@ transition: background-color 0.5s ease-in-out;
     float: left;
 }
 
+ .exp-content-details > p {
+         text-align: justify;
+    }
+
 .edu-img-div {
     margin:30px 30px 30px 30px;
 }
@@ -2078,6 +2082,8 @@ textarea.materialize-textarea {
   .pad-left {float:right;}
   .lblpadding-trainee {display: none;}
   .lblpadding-intern {display: none;}
+  .exp-content-details {width: 100%;}
+  .exp-content-details > p {text-align: justify;}
 }
 
 
@@ -2095,14 +2101,15 @@ textarea.materialize-textarea {
   .next2{margin-top: 70%;}
   .copyright-info { font-size: 12px;}
   .design-info {font-size: 13px;}
-  .call-to-about {left: 40.7%;bottom: -145px;}
+  .call-to-about {left: 40.7%;bottom: -59px;}
   .up-btn {left: 40.7%;}
   .personal-information > h3 {font-size: 18px;}
   .reply-btn {font-size: 12px;padding: 6px 8px;}
   .blog-content h2 {margin-bottom: 0;}
   .blog-archive .card-image {height: 200px;}
   .pagination li {width: 25px;margin: 0 5px;}
-
+  .single-testimonial {height: auto;}
+  .testimonial-img img {position: relative; left:18%; width:auto;}
 }
 
 
