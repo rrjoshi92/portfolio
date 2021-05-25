@@ -12,15 +12,15 @@ Tags: light, white,One page,Personal,Portfolio,Material,Flat,custom-colors,Multi
 ==================================================
 
   #BASIC TYPOGRAPHY
-  #HOME 
+  #HOME
   #ABOUT SECTION
   #RESUME SECTION
   #PORTFOLIO SECTION
   #FACTS SECTION
   #TESTIMONIAL SECTION
-  #HOME BLOG  
-  #FOOTER 
-  #BLOG PAGE  
+  #HOME BLOG
+  #FOOTER
+  #BLOG PAGE
   #RESPONSIVE CSS
 
 */
@@ -54,8 +54,8 @@ h6{
 }
 
 
-nav .brand-logo {    
-  font-weight: bold;  
+nav .brand-logo {
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -66,7 +66,7 @@ nav .brand-logo img {
 }
 
 
-.side-nav a {  
+.side-nav a {
   text-transform: uppercase;
 }
 
@@ -97,7 +97,7 @@ nav .brand-logo img {
   right:0;
   bottom:0;
   background-color:#fff; /* change if the mask should have another color then white */
-  z-index:99999; /* makes sure it stays on top */ 
+  z-index:99999; /* makes sure it stays on top */
 }
 
 
@@ -113,7 +113,7 @@ nav .brand-logo img {
 
 
 #home {
-  background-image: url("img/banner.jpg"); 
+  background-image: url("img/banner.jpg");
   background-position: 100% 100%;
   background-size: 100% 100%;
   display: inline;
@@ -160,7 +160,7 @@ nav .brand-logo img {
 
 
 .call-to-about {
-  bottom: -68px;  
+  bottom: -68px;
   left: 47.5%;
   position: absolute;
 }
@@ -174,8 +174,8 @@ nav .brand-logo img {
   background-color: #fafafa;
   float: left;
   display: inline;
-  padding: 80px 0px; 
-  width: 100%;  
+  padding: 80px 0px;
+  width: 100%;
 }
 
 
@@ -187,7 +187,7 @@ nav .brand-logo img {
 }
 
 
-.about-inner-left{  
+.about-inner-left{
   display: inline;
   text-align: center;
   float: left;
@@ -204,7 +204,7 @@ nav .brand-logo img {
 }
 
 
-.about-inner-right{ 
+.about-inner-right{
   min-height: 250px;
   display: inline;
   float: left;
@@ -223,7 +223,7 @@ nav .brand-logo img {
 .about-inner-right>h3{
   margin-top: 0px;
   font-size: 24px;
-  font-weight: 600;  
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -238,7 +238,7 @@ nav .brand-logo img {
 .personal-information>h3{
   margin-top: 0px;
   font-size: 24px;
-  font-weight: 600;  
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -253,7 +253,7 @@ nav .brand-logo img {
 
 
 .resume-btn{
-  margin-top: 160px;
+  margin-top: 100px;
   margin-left: 50px;
 }
 
@@ -277,7 +277,7 @@ nav .brand-logo img {
 
 
 #skill{
-  background-color: #fff;  
+  background-color: #fff;
   display: inline;
   padding: 60px 0;
   float: left;
@@ -297,7 +297,7 @@ nav .brand-logo img {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-} 
+}
 
 
 .title{
@@ -310,9 +310,9 @@ nav .brand-logo img {
 
 
 .skill-progress-bar{
-  display: inline;  
-  float: left;  
-  width: 100%;  
+  display: inline;
+  float: left;
+  width: 100%;
 }
 
 
@@ -328,17 +328,17 @@ nav .brand-logo img {
 
 .pro-bar-container {
   border-radius: 0;
-  height: 30px;  
+  height: 30px;
 }
 
 
 .pro-bar {
   border-radius: 0px;
-  height: 30px; 
+  height: 30px;
 }
 
 
-#experience{  
+#experience{
   display: inline;
   padding: 60px 0;
   float: left;
@@ -388,7 +388,7 @@ nav .brand-logo img {
 }
 
 
-.experience-slider .card .card-content {  
+.experience-slider .card .card-content {
   padding: 0 20px 20px;
 }
 
@@ -409,7 +409,7 @@ nav .brand-logo img {
 .experience-slider .card-reveal p {
   color: #727272;
   font-size: 15px;
-  line-height: 25px;  
+  line-height: 25px;
 }
 
 
@@ -459,6 +459,16 @@ nav .brand-logo img {
 }
 
 
+.ui-accordion .ui-accordion-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.ui-accordion .ui-accordion-header span {
+  text-align: center;
+}
+
 
 
 
@@ -468,7 +478,7 @@ nav .brand-logo img {
 /*--------------------*/
 
 
-#portfolio{ 
+#portfolio{
   display: inline;
   padding-bottom: 100px;
   float: left;
@@ -477,10 +487,10 @@ nav .brand-logo img {
 
 
 .portfolio-top{
-  display: inline;  
+  display: inline;
   padding-top: 60px;
   float: left;
-  width: 100%; 
+  width: 100%;
 }
 
 
@@ -584,9 +594,9 @@ nav .brand-logo img {
   -webkit-transition: background-color 0.5s ease-in-out;
 -moz-transition: background-color 0.5s ease-in-out;
 -o-transition: background-color 0.5s ease-in-out;
--ms-transition: background-color 0.5s ease-in-out; 
+-ms-transition: background-color 0.5s ease-in-out;
 transition: background-color 0.5s ease-in-out;
- 
+
 }
 
 
@@ -599,7 +609,7 @@ transition: background-color 0.5s ease-in-out;
 .view-icon {
   color: #fff;
   top: 42%;
-  visibility: hidden;  
+  visibility: hidden;
   font-size: 50px !important;
   left: -1%;
   position: absolute;
@@ -612,8 +622,8 @@ transition: background-color 0.5s ease-in-out;
 
 #portfolio-list .mix:hover .view-icon {
   left: 43%;
-  visibility: visible;  
-}  
+  visibility: visible;
+}
 
 
 #portfolio-list .mix:hover {
@@ -654,7 +664,7 @@ transition: background-color 0.5s ease-in-out;
 .edu-img-div img {
         display: block;
         margin: auto;
-        width: 76%; 
+        width: 76%;
 }
 /*--------------------*/
 /* FACTS */
@@ -666,7 +676,7 @@ transition: background-color 0.5s ease-in-out;
   background-position: center center;
   background-size: 100% 100%;
   display: inline;
-  float: left;   
+  float: left;
   position: relative;
   width: 100%;
 }
@@ -679,7 +689,7 @@ transition: background-color 0.5s ease-in-out;
 
 .facts-overlay {
   background: rgba(255, 255, 255, 0.92) none repeat scroll 0 0;
-  height: 100%; 
+  height: 100%;
   padding: 100px 0;
   width: 100%;
 }
@@ -695,7 +705,7 @@ transition: background-color 0.5s ease-in-out;
 .single-facts {
   background: #fff none repeat scroll 0 0;
   display: inline;
-  float: left;  
+  float: left;
   text-align: center;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 50px;
@@ -735,7 +745,7 @@ transition: background-color 0.5s ease-in-out;
 
 #testimonial{
   display: inline;
-  padding: 60px 0; 
+  padding: 60px 0;
   float: left;
   width: 100%;
 }
@@ -761,7 +771,7 @@ transition: background-color 0.5s ease-in-out;
 .testimonial-slider-area{
   display: inline;
   float: left;
-  margin-top: 60px;  
+  margin-top: 60px;
   width: 100%;
   position: relative;
 }
@@ -769,12 +779,12 @@ transition: background-color 0.5s ease-in-out;
 
 .testimonial-slider {
   display: inline;
-  float: left;  
+  float: left;
   width: 100%;
 }
 
 
-.single-testimonial {  
+.single-testimonial {
   height:316px;
   background-color: #686cc8;
   border-radius: 2px;
@@ -955,7 +965,7 @@ transition: background-color 0.5s ease-in-out;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  
+
 }
 
 
@@ -983,24 +993,24 @@ transition: background-color 0.5s ease-in-out;
 
 
 #footer{
-  display: inline;  
-  float: left;  
-  width: 100%;  
+  display: inline;
+  float: left;
+  width: 100%;
 }
 
 
 .footer-top{
   display: inline;
-  padding: 60px 0;  
-  float: left;  
+  padding: 60px 0;
+  float: left;
   width: 100%;
 }
 
 
 .footer-top-inner{
-  display: inline;  
-  float: left;  
-  width: 100%;  
+  display: inline;
+  float: left;
+  width: 100%;
 }
 
 
@@ -1103,7 +1113,7 @@ textarea.materialize-textarea {
 
 .design-info {
   color: #555;
-  display: inline-block; 
+  display: inline-block;
   font-size: 14px;
   line-height: 25px;
   margin-top: 20px;
@@ -1120,7 +1130,7 @@ textarea.materialize-textarea {
   display: inline-block;
   float: right;
   font-size: 14px;
-  line-height: 25px;  
+  line-height: 25px;
 }
 
 
@@ -1257,22 +1267,22 @@ textarea.materialize-textarea {
 }
 
 
-.blog-content{  
+.blog-content{
   display: inline;
-  float: left;  
+  float: left;
   width: 100%;
 }
 
 
 .blog-image{
-  display: inline;  
+  display: inline;
   float: left;
   width: 100%;
 }
 
 
 .blog-image img{
-  width: 100%;  
+  width: 100%;
 }
 
 
@@ -1339,10 +1349,10 @@ textarea.materialize-textarea {
 }
 
 
-.blog-content ul>li{  
+.blog-content ul>li{
   list-style: disc;
   color: #555;
-} 
+}
 
 
 .blog-content ul>li ul li{
@@ -1369,7 +1379,7 @@ textarea.materialize-textarea {
 
 .share-area {
   display: inline;
-  float: left;  
+  float: left;
   width: 100%;
 }
 
@@ -1417,7 +1427,7 @@ textarea.materialize-textarea {
 }
 
 
-.sidebar{  
+.sidebar{
   display: inline-block;
   float: left;
   min-height: 300px;
@@ -1527,18 +1537,18 @@ textarea.materialize-textarea {
 }
 
 
-.reply-btn:before{  
+.reply-btn:before{
   content: '\f112';
   font-family: FontAwesome;
   left: 0;
-  margin-right: 3px;  
+  margin-right: 3px;
 }
 
 
 .reply-btn:hover{
   text-decoration: none;
   color: #fff;
-  outline: none;  
+  outline: none;
 }
 
 
@@ -1583,7 +1593,7 @@ textarea.materialize-textarea {
 
 
 .comments-pagination li{
-  display: inline-block;  
+  display: inline-block;
 }
 
 
@@ -1597,7 +1607,7 @@ textarea.materialize-textarea {
   height: 30px;
   line-height: 15px;
   padding: 5px;
-  text-align: center; 
+  text-align: center;
   width: 30px;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -1606,7 +1616,7 @@ textarea.materialize-textarea {
 }
 
 
-.comments-pagination li a:hover {  
+.comments-pagination li a:hover {
   text-decoration: none;
   outline: none;
 }
@@ -1648,7 +1658,7 @@ textarea.materialize-textarea {
 
 
 #respond label{
-  display: block; 
+  display: block;
 }
 
 
@@ -1695,7 +1705,7 @@ textarea.materialize-textarea {
 }
 
 
-.custom-pagination li a {  
+.custom-pagination li a {
   line-height: 30px;
 }
 
@@ -1776,7 +1786,7 @@ textarea.materialize-textarea {
 
 
 .cat-item {
-  border-bottom: 1px solid #f1f1f1;  
+  border-bottom: 1px solid #f1f1f1;
 }
 
 
@@ -1821,7 +1831,7 @@ textarea.materialize-textarea {
   padding: 8px 13px;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;  
+  transition: all 0.5s ease 0s;
 }
 
 
@@ -1843,13 +1853,13 @@ textarea.materialize-textarea {
 .blog-navigation-left{
   display: inline;
   float: left;
-  
+
 }
 
 
 .blog-navigation-right{
   display: inline;
-  float: right;  
+  float: right;
 }
 
 
@@ -1908,7 +1918,7 @@ textarea.materialize-textarea {
 }
 
 @-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
+    from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
 }
 
@@ -1918,7 +1928,7 @@ textarea.materialize-textarea {
 }
 
 @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
+    from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
 }
 
@@ -1935,13 +1945,13 @@ textarea.materialize-textarea {
 /*--------------------*/
 
 /* 1199 and above */
-@media(min-width:1199px ) {  
+@media(min-width:1199px ) {
       .experience-slide > div > div > div{margin-left:85px;}
       .inner-left {width:48%;float:left}
       .inner-right {width:48%; float:right}
       .lblpadding-uiengg {position:relative;left:37%;}
       .lblpadding-trainee {position:relative;left:33%;}
-      .lblpadding-intern {position:relative;left:38.6%;}     
+      .lblpadding-intern {position:relative;left:38.6%;}
       .prev2, .next2 {margin-top: 12.3%;}
 }
 
@@ -2140,5 +2150,5 @@ textarea.materialize-textarea {
   .children {margin-left: 10px;}
   .pagination li {width: 25px;margin: 0 5px;}
 
- 
+
 }
